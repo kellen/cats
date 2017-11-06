@@ -60,7 +60,7 @@ implicit def optionMonad(implicit app: Applicative[Option]) =
 follows this tradition by providing implementations of `flatten` and `map`
 derived from `flatMap` and `pure`.
 
-Part of the reason for this is that name `flatMap` has special significance in
+Part of the reason for this is that the name `flatMap` has special significance in
 scala, as for-comprehensions rely on this method to chain together operations
 in a monadic context.
 
